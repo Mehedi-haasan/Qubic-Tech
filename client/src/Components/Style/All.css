@@ -1,0 +1,249 @@
+*{
+  font-family:  "Saira", sans-serif;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color:#1E1F1E!important;
+
+}
+.logo img{
+  width:196px;
+  height:35px;
+  
+}
+.sarasoft{
+  color:white;
+  font-size:30px;
+}
+.sarasoft strong{
+  color:#06D889!important;
+}
+.button-menu{
+  color:#06D889!important;
+}
+.navbar li a{
+  color:white!important;
+  font-size:17px;
+  font-weight: 400;
+}
+.hero-img-one{
+  border-radius: 50%;
+  width:120px;
+  height:120px;
+  float: right;
+  margin-right:140px;
+
+}
+.hero-img-div{
+  margin-left:100px;
+}
+.hero-img-two{
+  border-radius: 40%;
+  
+  border: 2px solid green;
+  width:350px;
+  height:450px;
+  object-fit: cover;
+}
+.hero-one{
+  background:url('https://demo-egenslab.b-cdn.net/html/softconic/preview/assets/img/home-4/home4-banner-bg.png'),linear-gradient(#1d1d1d,#1d1d1d);
+  background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.hero-text-head{
+  line-height: 80px;
+}
+.hero-text-p{
+  line-height: 30px;
+}
+.business{
+  color:#06D889!important;
+  text-decoration:underline;
+}
+
+.creative-design{
+  background-color:#22262A;
+}
+.creative-design-text-one{
+  color:#06D889;
+}
+.support{
+  color:#06D889;
+}
+.creative-text-p{
+  color:#6E6F72;
+  text-align: justify;
+}
+.creative-design-head{
+  line-height: 50px;
+}
+.creative-text-p{
+  line-height: 30px;
+}
+.creative-design-imgs{
+  margin:0 auto;
+}
+.creative-design-imgs {
+  position: relative;
+}
+.creative-design-imgs .creative-design-img-one{
+  
+  border-radius: 40%;
+
+}
+.potential{
+  color:#06D889;
+}
+.potential-text-head{
+  font-size:35px;
+  line-height: 45px;
+  
+}
+.potential-text-p{
+  color:#b5b5b5;
+  line-height: 30px;
+}
+.creative-design-img-two img{
+  position: absolute;
+  border-radius: 50%;
+  bottom:0;
+  border:2px solid #06D889;
+  right:0;
+
+  
+}
+.items-design{
+  line-height: 40px;
+}
+.items-design span{
+  font-size:18px;
+}
+.design-img-one{
+  margin:0 auto;
+}
+.our-service{
+  background-color: #1B1F23;
+}
+.service-head{
+  line-height:50px;
+  font-size:40px;
+}
+.service-item-card{
+  background:url('https://demo-egenslab.b-cdn.net/html/softconic/preview/assets/img/home-4/home4-service-bg2.png'),linear-gradient(#17181C,#17181C);
+  box-shadow: none!important;
+  
+}
+.service-item-card2{
+  background:url('https://demo-egenslab.b-cdn.net/html/softconic/preview/assets/img/home-4/home4-service-bg2.png'),linear-gradient(#17181C,#17181C);
+}
+
+.icon svg {
+  fill: #06D889;
+}
+.icon2{
+  fill: white;
+}
+.svg-image{
+  color: #06D889!important;
+}
+.service-item-text{
+  color:#e4e4e4;
+  text-align: left;
+  font-weight: 300!important;
+    font-size: 14px!important;
+    line-height: 30px!important;
+    letter-spacing: .03em;
+    color: #e4e4e4!important;
+}
+.service-item-button svg{
+  fill:#06D889;
+}
+.service-item-button{
+  position: relative;
+}
+.btn-text{
+  position:absolute;
+  top:25%;
+  left:10%;
+  width:130px;
+
+}
+.btn-text-svg{
+  fill:white;
+}
+.contact-us{
+  background-color: #0F0F0F;
+}
+.contact-item-text{
+  font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .03em;
+    color: #b5b5b5;
+    margin-bottom: 0;
+    margin-top:10px;
+}
+.address-icon{
+  color:#06D889;
+  border-radius: 50%;
+  border:1px solid #06D889;
+  font-size:40px!important;
+  padding:5px;
+  
+  
+}
+.p-text{
+  font-size: 16px;
+  font-weight: 400;
+  color: #b5b5b5;
+  display: block;
+  transition: all .5s ease;
+}
+.social-i{
+  margin-right:30px;
+  /* border:1px solid white; */
+  padding:5px;
+  font-size:35px;
+  border-radius: 10px;
+  margin-top:10px;
+  margin-bottom:20px;
+
+}
+.social-i:hover{
+  font-size:45px;
+}
+.contact-form{
+  background-color: #1C2426;
+  width:90%;
+  border-radius: 10px;
+}
+
+@media(max-width:600px){
+  .hero-text-head{
+    margin-top:30px;
+    font-size:40px;
+    line-height: 50px;
+  }
+  .hero-img-div{
+    display:none;    
+  }
+
+  .menu li{
+    text-align: center;
+  }
+  .dropdown-content{
+    background-color: #06D889!important;
+    text-align: center;
+  }
+  .menu li a {
+    color:rgb(255, 255, 255);
+    text-align: center;
+  }
+  .service-item-card{
+    margin:0 auto;
+    margin-top:20px;
+  }
+}
